@@ -1,0 +1,32 @@
+/* inicio da Pag 404-ERROR */
+.chamada-erro {
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+ background-color: var(--black);
+ /* margin-left: 500px;
+ margin-top: 50px; */
+}
+
+.chamada-erro img {
+ width: 50%;
+ height: 50%;
+}
+
+.chamada-erro h2 {
+ font-size: 40px;
+ font-family: 'Times New Roman', Times, serif;
+ font-weight: bold;
+ padding-top: 8px;
+ color: var(--write);
+}
+
+.chamada-erro p {
+ width: 550px;
+ font-size: 30px;
+ font-weight: 400;
+ padding-top: 8px;
+ text-align: center;
+ color: var(--write);
+}
