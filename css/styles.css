@@ -225,7 +225,11 @@ div.perfil-description p {
   border: 3px solid var(--write);
 }
 
-.button-contato span {
+.button-contato a {
+  text-decoration: none;
+}
+
+.button-contato a span {
   font-size: 1rem;
   font-weight: 500;
   color: var(--write);

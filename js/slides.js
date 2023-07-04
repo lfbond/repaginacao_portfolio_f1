@@ -2,6 +2,7 @@ $(function(){
 	$('.web .container').slick({
 		centerMode:true,
 		slidesToShow:3,
+		slidesToScroll: 3,
 		arrows:false,
 		dots:true,
 		infinite:true,
@@ -14,7 +15,8 @@ $(function(){
 					dots:true,
 					infinite:false,
 					centerMode:false,
-					slidesToShow:2
+					slidesToShow:2,
+					slidesToScroll: 2
 				}
 			},
 			{
@@ -24,7 +26,8 @@ $(function(){
 					dots:true,
 					infinite:false,
 					centerMode:false,
-					slidesToShow:1
+					slidesToShow:1,
+					slidesToScroll: 1
 				}
 			}
 		]
@@ -35,6 +38,7 @@ $(function(){
 	$('.apps .container').slick({
 		centerMode:true,
 		slidesToShow:3,
+		slidesToScroll: 3,
 		arrows:false,
 		dots:true,
 		infinite:true,
@@ -47,7 +51,8 @@ $(function(){
 					dots:true,
 					infinite:false,
 					centerMode:false,
-					slidesToShow:2
+					slidesToShow:2,
+					slidesToScroll: 2
 				}
 			},
 			{
@@ -57,7 +62,8 @@ $(function(){
 					dots:true,
 					infinite:false,
 					centerMode:false,
-					slidesToShow:1
+					slidesToShow:1,
+					slidesToScroll: 1
 				}
 			}
 		]
@@ -68,6 +74,7 @@ $(function(){
 	$('.games .container').slick({
 		centerMode:true,
 		slidesToShow:3,
+		slidesToScroll: 3,
 		arrows:false,
 		dots:true,
 		infinite:true,
@@ -80,7 +87,8 @@ $(function(){
 					dots:true,
 					infinite:false,
 					centerMode:false,
-					slidesToShow:2
+					slidesToShow:2,
+					slidesToScroll: 2
 				}
 			},
 			{
@@ -90,7 +98,8 @@ $(function(){
 					dots:true,
 					infinite:false,
 					centerMode:false,
-					slidesToShow:1
+					slidesToShow:1,
+					slidesToScroll: 1
 				}
 			}
 		]
